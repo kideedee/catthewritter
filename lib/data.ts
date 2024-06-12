@@ -5,20 +5,8 @@ interface IMenuItem {
 
 export const menuItems: IMenuItem[] = [
   {
-    title: "News",
-    href: "/topic/news",
-  },
-  {
-    title: "Reviews",
-    href: "/topic/reviews",
-  },
-  {
-    title: "Best",
-    href: "/topic/best",
-  },
-  {
-    title: "Devices",
-    href: "/topic/devices",
+    title: "Ielts",
+    href: "/topic/ielts",
   },
   {
     title: "About",
@@ -31,6 +19,6 @@ export const menuItems: IMenuItem[] = [
 ];
 
 export const siteInfo = {
-  title: "TechMag",
-  description: "Tech Magazine",
+  title: "CatBlog",
+  description: "The Cat Writter",
 };
